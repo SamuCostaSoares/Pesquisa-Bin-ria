@@ -28,3 +28,12 @@ def ler_numero_agenda():
         print(f"{nome}: {num}")
 
 ler_numero_agenda()
+
+
+
+def ler_numero_nomes_L():
+    for nome, num in agenda_telefonica.items():
+        if nome.startswith('L'):
+            print(f"{nome}: {num}")
+
+ler_numero_nomes_L()
