@@ -1,0 +1,14 @@
+agenda_telefonica = {
+    'Hannah': '12-99771-9890',
+    'Fernando': '12-99661-9810',
+    'Lisandra': '12-91911-1221',
+    'Luisa': '12-92331-1221',
+    'Gustavo': '12-91111-1721',
+    'Noah': '12-91911-1331',
+}
+
+def encontrar_numero(nome):
+    return agenda_telefonica.get(nome, "Nome não localizado")
+
+nome = 'Fernando'
+print(encontrar_numero(nome))
