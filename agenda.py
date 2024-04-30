@@ -21,3 +21,10 @@ def encontrar_dono(numero):
 
 numero = '12-91911-1331'
 print(encontrar_dono(numero))
+
+
+def ler_numero_agenda():
+    for nome, num in agenda_telefonica.items():
+        print(f"{nome}: {num}")
+
+ler_numero_agenda()
