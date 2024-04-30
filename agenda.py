@@ -12,3 +12,12 @@ def encontrar_numero(nome):
 
 nome = 'Fernando'
 print(encontrar_numero(nome))
+
+
+def encontrar_dono(numero):
+    for nome, num in agenda_telefonica.items():
+        if num == numero:
+            return nome
+
+numero = '12-91911-1331'
+print(encontrar_dono(numero))
